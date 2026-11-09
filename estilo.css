@@ -1,0 +1,50 @@
+:root{
+    --azul: #3b5bdb;
+    --fondoverde: #00ff00;
+    --boton: #c94d0f;
+}
+body{
+    background-color: var(--fondoverde);
+}
+.DatosPersonales{
+    background-color: var(--azul);
+    color: white;
+    text-align: center;
+}
+#SeccionHoby{
+    background-color: var(--azul);
+    color: rgb(213, 33, 189);
+    text-align: center;
+}
+.boton{
+    background-color: var(--boton);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.boton:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.milogo{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+.formulario{
+    background-color: var(--azul);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 80px;
+    padding: 10px;
+    display: flex;
+    flex-wap: wrap;
+}
